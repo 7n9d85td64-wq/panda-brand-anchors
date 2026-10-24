@@ -1,0 +1,13 @@
+{
+  "schema": "panda-install-manifest-v1",
+  "pkg": "panda-memory-v1.0.zip",
+  "version": "V1.0",
+  "size_bytes": 71185,
+  "sha256": "a77a77979c57c2708e9f51a5ba3c3e8c480eed508dec196278c0cdfb3d386b2e",
+  "parts": [
+    "part0.json",
+    "part1.json",
+    "part2.json"
+  ],
+  "reassemble": "拼接 part0..2 的 base64 → base64 解码 → 得 zip；sha256 必须等于 manifest.sha256"
+}
